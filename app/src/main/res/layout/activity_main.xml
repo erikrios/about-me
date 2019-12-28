@@ -15,6 +15,14 @@
         android:text="@string/name"
         android:textAlignment="center" />
 
+    <EditText
+        android:id="@+id/nickname_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
@@ -32,14 +40,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/ic_menu_myplaces"
-                android:paddingStart="@dimen/layout_padding"
-                android:paddingEnd="@dimen/layout_padding"
-                android:contentDescription="@string/white_menu"/>
 
             <TextView
                 android:id="@+id/bio_text"
